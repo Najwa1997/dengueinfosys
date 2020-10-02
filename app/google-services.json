@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "905473346220",
+    "firebase_url": "https://dengueinfosys.firebaseio.com",
+    "project_id": "dengueinfosys",
+    "storage_bucket": "dengueinfosys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905473346220:android:460372197ae6308feced09",
+        "android_client_info": {
+          "package_name": "com.example.dengueinfosys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905473346220-t6p26ch9trqmh3g445cv78evr4dgoshl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dengueinfosys",
+            "certificate_hash": "a5fae7461abe45439f0c9312881c93b3bdb4092a"
+          }
+        },
+        {
+          "client_id": "905473346220-2qk2dlv3ps51fd75eh71dppp10sdq1mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCACErGGoURDqoXVvdRRobfSY1H4KOYA1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905473346220-2qk2dlv3ps51fd75eh71dppp10sdq1mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

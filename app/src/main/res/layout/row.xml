@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/color2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Name "
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:text="Name here"
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Date "
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtDate"
+                        android:text="Date here"
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Condition "
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtCond"
+                        android:text="Condition here"
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:id="@+id/imgIcon"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/ic_launcher_background"/>
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
